@@ -48,7 +48,7 @@ namespace OOP1_tema
         public static bool Identica(int[,] matrix)
         {
             bool isIdentica = true;
-
+            
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
